@@ -1,0 +1,80 @@
+{
+	"name" : "ley-presupuesto-sector-publico-chile-2015",
+	"title" : "Ley de Presupuesto 2015",
+	"licence" : [
+	{
+		"name":"Creative Commons 3.0",
+		"web":"http://creativecommons.org/licenses/by/3.0/cl/"
+	}],
+	"sources" : [{
+		"name":"Portal de datos publicos",
+		"web":"http://datos.gob.cl/datasets/ver/31132"
+		}],
+	"resources":[
+	{
+		"path":"data/presupuesto2015.csv",
+		"schema":{
+			"fields":[
+			{
+				"id":"TIPO",
+				"type":"string"
+			},
+			{
+				"id":"PARTIDA",
+				"type":"number"
+			},
+			{
+				"id":"CAPITULO",
+				"type":"number"
+			},
+			{
+				"id":"PROGRAMA",
+				"type":"number"
+			},
+			{
+				"id":"SUBTITULO",
+				"type":"number"
+			},
+			{
+				"id":"ITEM",
+				"type":"number"
+			},
+			{
+				"id":"ASIGNACION",
+				"type":"number"
+			},
+			{
+				"id":"DESC_PARTIDA",
+				"type":"string"
+			},
+			{
+				"id":"DESC_CAPITULO",
+				"type":"string"
+			},
+			{
+				"id":"DESC_PROGRAMA",
+				"type":"string"
+			},
+			{
+				"id":"DESC_SUBTITULO",
+				"type":"string"
+			},
+			{
+				"id":"DESC_ITEM",
+				"type":"string"
+			},
+			{
+				"id":"DESC_ASIGNACION",
+				"type":"string"
+			},
+			{
+				"id":"MONTO_PESOS",
+				"type":"float"
+			},
+			{
+				"id":"MONTO_DOLAR",
+				"type":"float"
+			}]
+		}
+	}]
+}
